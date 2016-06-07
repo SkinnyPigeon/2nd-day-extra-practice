@@ -19,6 +19,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal(3, subtract_result)
   end
 
+  def test_multiply()
+    multiply_result = multiply(5, 3)
+    assert_equal(15, multiply_result)
+  end
 
 
 
