@@ -29,6 +29,26 @@ class Functions_Practice < MiniTest::Test
     assert_equal(125, cube_result)
   end
 
+  def test_division()
+    division_result = division(4, 2)
+    assert_equal(2, division_result)
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 end

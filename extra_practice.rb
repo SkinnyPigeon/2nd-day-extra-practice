@@ -18,6 +18,9 @@ def cube (lbd)
   return lbd**3
 end
 
+def division(first_number, second_number)
+  return first_number / second_number
+end
 
 
 
