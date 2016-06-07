@@ -10,12 +10,13 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_add()
-     add_result = add( 1, 2 )
-     assert_equal( 3, add_result )
+    add_result = add( 1, 2 )
+    assert_equal( 3, add_result )
   end
 
   def test_subtract()
-    subtract_result = 
+    subtract_result = subtract(5, 2)
+    assert_equal(3, subtract_result)
   end
 
 
