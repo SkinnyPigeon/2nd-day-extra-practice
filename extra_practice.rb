@@ -14,7 +14,9 @@ def multiply (first_number, second_number)
   return first_number * second_number
 end
 
-
+def cube (lbd)
+  return lbd**3
+end
 
 
 

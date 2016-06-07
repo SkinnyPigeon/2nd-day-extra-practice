@@ -24,6 +24,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal(15, multiply_result)
   end
 
+  def test_cube()
+    cube_result = cube(5)
+    assert_equal(125, cube_result)
+  end
 
 
 
