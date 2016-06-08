@@ -35,7 +35,7 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_wizard()
-    wizard_result = wizard(true)
+    wizard_result = wizard()
     assert_equal(true, wizard_result)
   end
 
