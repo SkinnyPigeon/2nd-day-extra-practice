@@ -22,6 +22,8 @@ def division(first_number, second_number)
   return first_number / second_number
 end
 
-
+def wizard(sorting_hat)
+  return true
+end
 
 

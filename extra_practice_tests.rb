@@ -34,7 +34,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal(2, division_result)
   end
 
-
+  def test_wizard()
+    wizard_result = wizard(true)
+    assert_equal(true, wizard_result)
+  end
 
 
 
